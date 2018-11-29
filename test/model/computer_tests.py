@@ -8,8 +8,8 @@ class ComputerTests(unittest.TestCase):
 
     @staticmethod
     def get_computer_input_dict():
-        return {'_id': ObjectId(b'testdata1234'), 'name': 'test', 'cpu_type': '8086', 'number_of_cpus': 1, 'memory_in_mb': 0,
-                'is_virtual': False}
+        return {'_id': ObjectId(b'testdata1234'), 'name': 'test', 'cpu_type': '8086', 'number_of_cpus': 1,
+                'memory_in_mb': 0, 'is_virtual': False}
 
     def test_constructFromDict(self):
         input_data = self.get_computer_input_dict()
