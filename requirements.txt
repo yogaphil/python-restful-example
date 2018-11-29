@@ -1,0 +1,8 @@
+flask
+flask-restplus
+flask-talisman
+flask-seasurf
+gunicorn
+marshmallow==3.0.0b20
+python-dateutil
+pymongo
